@@ -62,20 +62,22 @@ int print_percentage(va_list args)
  */
 int print_d(va_list args)
 {
-	int n = va_arg(args, int);
-	unsigned int absolute;
-	int count = 0;
+	unsigned int absolute, aux, countnum, count;
+	int n;
 
+	int n = va_arg(args, int);
+	count = 0;
+	
 	if (n < 0)
 	{
-		absolute = (unsigned int)(-n);
+		absolute = (n * -1);
 		count += _putchar('-');
 	}else
-	{
-		absolute = (unsigned int)n;
-	}
-	unsigned int countnum = 1;
-	unsigned int aux = absolute;
+	
+		absolute = n;
+
+	aux = absolute;
+	countnum = 1;	
 	while (aux > 9)
 	{
 		aux /= 10;
@@ -86,5 +88,5 @@ int print_d(va_list args)
 		count += _putchar((absolute / countnum) %10 + '0');
 		countnum /= 10;
 	}
-	return count;
+	return (count);
 }
