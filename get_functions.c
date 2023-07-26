@@ -7,7 +7,7 @@ int (*get_functions(char *format))(va_list)
 
     spec array[]=
     {
-        {"c", printt_char},
+        {"c", print_char},
         {"s", print_string},
         {"%", print_percentage},
 	{"d", print_d},
@@ -17,7 +17,7 @@ int (*get_functions(char *format))(va_list)
     while(array[i].p)
     {
         if (*format  == array[i].p[0])
-        return (array)[i].f);
+        return (array[i].f);
         i++;
     }
     return (NULL);
