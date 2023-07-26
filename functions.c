@@ -65,7 +65,7 @@ int print_d(va_list args)
 	unsigned int absolute, aux, countnum, count;
 	int n;
 
-	int n = va_arg(args, int);
+	n = va_arg(args, int);
 	count = 0;
 	
 	if (n < 0)
