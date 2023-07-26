@@ -2,7 +2,10 @@
   
 Create custom `_printf` function.
 
-![](https://zupimages.net/up/23/30/z7yt.png)
+<p align="center">
+  <img src="(https://zupimages.net/up/23/30/z7yt.png" />
+</p>
+
 
 ## Requirements
 
