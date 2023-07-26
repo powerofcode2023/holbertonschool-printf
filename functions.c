@@ -13,3 +13,30 @@ int print_char(va_list args)
 	_putchar(c);
 	return (1);
 }
+
+/**
+ * print_string -print a string
+ * @args: string as argument
+ *
+ * Return: length of the string
+ */
+
+int print_string(va_list args)
+{
+	int i = 0, length = 0;
+	char *string;
+
+	string = va_arg(args, char*);
+	if (string == NULL)
+	{
+		string = "(null)";
+	}
+	while (string[i] != '\0')
+	{
+		_putchar(string[i]);
+		i++;
+		length++;
+	}
+	return (length);
+}
+
