@@ -2,10 +2,7 @@
   
 Create custom `_printf` function.
 
-<p align="center">
-  <img src="(https://zupimages.net/up/23/30/z7yt.png" />
-</p>
-
+<div style="text-align:center"><img src="https://zupimages.net/up/23/30/z7yt.png" /></div>
 
 ## Requirements
 
