@@ -2,7 +2,7 @@
   
 Create custom `_printf` function.
 
-![This is an image](https://pasteboard.co/oR5X6iGQ9QdQ.png)
+![](https://zupimages.net/up/23/30/z7yt.png)
 
 ## Requirements
 
