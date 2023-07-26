@@ -2,7 +2,7 @@
 
 /**
  * print_char -print a character
- * @args: argument
+ * @args: character as argument
  *
  * Return: 1 is the length of the character
  */
@@ -40,3 +40,16 @@ int print_string(va_list args)
 	return (length);
 }
 
+/**
+ * print_percentage - print a character '%'
+ * @args: percentage as argument
+ * Return: 1 is the length of the character, here '%'
+ */
+
+int print_percentage(va_list args)
+{
+	(void)args;
+	_putchar('%');
+
+	return (1);
+}
