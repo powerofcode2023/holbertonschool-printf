@@ -58,8 +58,7 @@ int print_percentage(va_list args)
 
 /**
  * print_d - print a decimal
- * args: decimal as argument
- *
+ * @args: decimal argument
  * Return: length of the number
  */
 int print_d(va_list args)
