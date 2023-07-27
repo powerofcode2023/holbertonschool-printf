@@ -25,7 +25,7 @@ Create custom `_printf` function.
 | --- |:---:| 
 |  %c | single character | 
 | %s  | string  | 
-| %  | percentage | 
+| %%  | percentage | 
 |  %d, %i | integer  |  
 
 ### Compilation
