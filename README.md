@@ -24,7 +24,8 @@ Create custom `_printf` function.
 | Specifier | Description  | 
 | --- |:---:| 
 |  %c | single character | 
-| %s  | string  |  
+| %s  | string  | 
+| %  | percentage | 
 |  %d, %i | integer  |  
 
 ### Compilation
