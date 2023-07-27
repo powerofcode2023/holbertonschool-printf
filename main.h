@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <unistd.h>
+#include <stddef.h>
 
 /**
  * struct specifier - struct specifier
@@ -14,7 +15,7 @@
 typedef struct specifier
 {
 	char *p;
-	int (*f)(va_list args);
+	int (*f)(va_list);
 }spec;
 
 int _printf(const char *format,...);
@@ -23,6 +24,6 @@ int print_char(va_list args);
 int print_string(va_list args);
 int print_percentage(va_list args);
 int print_d(va_list args);
-int (*get_functions(char *format))(va_list);
+int (*get_functions(char x))(va_list args);
 
 #endif
