@@ -10,6 +10,7 @@
 int print_char(va_list args)
 {
 	char c = va_arg(args, int);
+
 	_putchar(c);
 	return (1);
 }
@@ -55,7 +56,8 @@ int print_percentage(va_list args)
 	return (1);
 }
 
-/** print_d - print a decimal
+/**
+ * print_d - print a decimal
  * args: decimal as argument
  *
  * Return: length of the number
@@ -67,17 +69,16 @@ int print_d(va_list args)
 
 	n = va_arg(args, int);
 	count = 0;
-	
+
 	if (n < 0)
 	{
 		absolute = (n * -1);
 		count += _putchar('-');
-	}else
-	
+	} else
 		absolute = n;
 
 	aux = absolute;
-	countnum = 1;	
+	countnum = 1;
 	while (aux > 9)
 	{
 		aux /= 10;
@@ -85,7 +86,7 @@ int print_d(va_list args)
 	}
 	while (countnum >= 1)
 	{
-		count += _putchar((absolute / countnum) %10 + '0');
+		count += _putchar((absolute / countnum) % 10 + '0');
 		countnum /= 10;
 	}
 	return (count);
