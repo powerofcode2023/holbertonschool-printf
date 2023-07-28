@@ -34,5 +34,11 @@ Create custom `_printf` function.
 
     $ gcc -Wall -Werror -Wextra -pedantic *.c
 
+
+## Flowchart
+
+<div style="text-align:center"><img src="https://zupimages.net/up/23/30/h1me.jpeg" /></div>
+
+
 ## Authors
 * [**Abdelkader AOUAR**](https://github.com/powerofcode2023)
