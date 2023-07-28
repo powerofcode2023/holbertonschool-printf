@@ -37,7 +37,7 @@ Create custom `_printf` function.
 
 ## Flowchart
 
-<div style="text-align:center"><img src="https://zupimages.net/up/23/30/h1me.jpeg" /></div>
+<div style="text-align:center"><img src="https://zupimages.net/up/23/30/h1me.jpeg" width=50% height=50% /></div>
 
 
 ## Authors
